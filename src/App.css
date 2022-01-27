@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.main {
+    text-align: center;
+}
+.heading {
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+}
+.navbar {
+    display: flex;
+    background-image: url('./background_search_desktop.jpg');
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+.inputfield {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input {
+    border-radius: 5px;
+}
+.inputtext {
+    height: 40px;
+    width: 380px;
+    text-align: center;
+}
+.search {
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    font-size:medium;
+    letter-spacing: 2.0px;
+
+}
+.search:hover {
+    opacity: 0.8;
+}
+img {
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+.label {
+    text-align: center;
+}
+.child1 {
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+    
+    border-radius: 150px;
+    
+    background-color: rgb(226, 209, 209);
+}
+.child2 {
+    text-align: center;
+    line-height: 8px;
+    /* background-color: green; */
+}
+.btn {
+    text-align: center;
+    background-color: rgb(224, 44, 12);
+    color: white;
+    font-size: medium;
+    border-radius: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media only screen and (max-width: 490px) {
+    .inputfield {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .inputtext {
+        height: 50px;
+        width: 180px;
+        text-align: center;
+    }
+    .child1 {
+        /* width: 100%; */
+    }
 }
