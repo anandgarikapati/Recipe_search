@@ -10,7 +10,7 @@
 }
 .navbar {
     display: flex;
-    background-image: url('./background_search_desktop.jpg');
+    background-image: url('./desktop-image3.jpg');
     flex-direction: column;
     justify-content: center;
     background-size: cover;
