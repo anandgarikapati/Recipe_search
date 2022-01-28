@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <div className="main">
-       <h1 className='heading'>Foodie Adda</h1>
+       <h1 className='heading'>Recipe Search</h1>
       </div>
         <div className='navbar'>
           <form onSubmit={submitHandler} className='inputfield' >

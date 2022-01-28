@@ -2,9 +2,11 @@
     text-align: center;
 }
 .heading {
+    /* position: fixed; */
     color: white;
-    background-color: tomato;
+    background-color: rgb(216, 42, 11);
     padding: 10px;
+    
 }
 .navbar {
     display: flex;
@@ -14,6 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
+    
 }
 .inputfield {
     display: flex;
@@ -30,7 +33,7 @@ input {
 }
 .search {
     padding: 10px;
-    background-color: crimson;
+    background-color: rgb(7, 194, 38);
     color: white;
     font-size:medium;
     letter-spacing: 2.0px;
@@ -40,7 +43,7 @@ input {
     opacity: 0.8;
 }
 img {
-    height: 250px;
+    height: 280px;
     width: 300px;
     border-radius: 10px;
     
@@ -59,9 +62,7 @@ img {
     height: 500px;
     width: 300px;
     margin: 10px;
-    
     border-radius: 150px;
-    
     background-color: rgb(226, 209, 209);
 }
 .child2 {
@@ -71,7 +72,7 @@ img {
 }
 .btn {
     text-align: center;
-    background-color: rgb(224, 44, 12);
+    background-color: rgb(15, 13, 2);
     color: white;
     font-size: medium;
     border-radius: 4px;
@@ -90,7 +91,5 @@ img {
         width: 180px;
         text-align: center;
     }
-    .child1 {
-        /* width: 100%; */
-    }
+    
 }
