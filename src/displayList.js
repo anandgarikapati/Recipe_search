@@ -15,7 +15,7 @@ const ListItems = ({data}) => {
                        <h5>CuisineType: {data.recipe.cuisineType}</h5>
                        <h5>Calories: {Math.round(data.recipe.calories)}</h5>
                        <h5>DietLabels:  {data.recipe.dietLabels}</h5>  
-                       <button className='btn'>Order Now</button>  
+                       {/* <button className='btn'>Order Now</button>   */}
                      </div>   
                         
                     </div>
